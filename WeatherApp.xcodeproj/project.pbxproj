@@ -86,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		806DCFF629C1353900A0B24E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8088C92C29BF4DE2005E0EA7 /* SceneDelegate.swift */,
+				8088C92A29BF4DE2005E0EA7 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		8088C91E29BF4DE1005E0EA7 = {
 			isa = PBXGroup;
 			children = (
@@ -109,17 +118,13 @@
 		8088C92929BF4DE2005E0EA7 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				806DCFF629C1353900A0B24E /* Core */,
 				80F5C17829C08189005DCB53 /* Protocols */,
 				8088C96629BF6951005E0EA7 /* Services */,
 				8088C96529BF64A3005E0EA7 /* ViewModel */,
 				8088C96429BF64A0005E0EA7 /* View */,
 				8088C96329BF649C005E0EA7 /* Model */,
-				8088C92A29BF4DE2005E0EA7 /* AppDelegate.swift */,
-				8088C92C29BF4DE2005E0EA7 /* SceneDelegate.swift */,
-				8088C92E29BF4DE2005E0EA7 /* ViewController.swift */,
-				8088C93029BF4DE2005E0EA7 /* Main.storyboard */,
 				8088C93329BF4DE2005E0EA7 /* Assets.xcassets */,
-				8088C93529BF4DE2005E0EA7 /* LaunchScreen.storyboard */,
 				8088C93829BF4DE2005E0EA7 /* Info.plist */,
 			);
 			path = WeatherApp;
@@ -154,6 +159,9 @@
 		8088C96429BF64A0005E0EA7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8088C93029BF4DE2005E0EA7 /* Main.storyboard */,
+				8088C93529BF4DE2005E0EA7 /* LaunchScreen.storyboard */,
+				8088C92E29BF4DE2005E0EA7 /* ViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
